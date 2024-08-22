@@ -9,5 +9,5 @@ sequence = "".join(line.strip() for line in lines if not line.startswith(">"))
 print(sequence)
 
 # Optionally, save to a new file
-with open("continuous_sequence.txt", "w") as output_file:
+with open("continuous_dna.txt", "w") as output_file:
     output_file.write(sequence)
