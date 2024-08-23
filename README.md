@@ -29,6 +29,9 @@ Welcome to the Bioinformatics class assignment repository. This repository conta
 ### 7. `translation.py`
 - **Description**: This script translates the mRNA sequence (`continuous_mrna.txt`) into a continuous amino acid sequence, outputting the result to `continuous_amino_acid.txt`.
 
+### 8. `dna_to_amino_acid.py`
+- **Description**: This script performs a complete translation process starting from a hard-coded DNA sequence. It first transcribes the DNA into mRNA and then translates the mRNA into an amino acid sequence. The DNA, mRNA, and the resulting amino acid sequence are all printed to the console.
+
 ## Workflow Overview
 
 The typical workflow using the files in this repository is as follows:
